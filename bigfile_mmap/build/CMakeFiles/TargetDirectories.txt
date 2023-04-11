@@ -1,0 +1,6 @@
+/home/ww/git/work/bigfile_mmap/build/CMakeFiles/mmap_file_test.dir
+/home/ww/git/work/bigfile_mmap/build/CMakeFiles/edit_cache.dir
+/home/ww/git/work/bigfile_mmap/build/CMakeFiles/mmap_file_op_test.dir
+/home/ww/git/work/bigfile_mmap/build/CMakeFiles/lib1.dir
+/home/ww/git/work/bigfile_mmap/build/CMakeFiles/rebuild_cache.dir
+/home/ww/git/work/bigfile_mmap/build/CMakeFiles/file_op_test.dir
