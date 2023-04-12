@@ -51,7 +51,7 @@ namespace ww
 
             int st = -1;
 
-            if (st = fsync(fd_) == 0)
+            if ((st = fsync(fd_)) == 0)
             {
                 printf("同步文件中\n");
             }
@@ -66,7 +66,7 @@ namespace ww
         {
             close_file();
             int st = -1;
-            if (st = unlink(file_name_) == 0)
+            if ((st = unlink(file_name_)) == 0)
             {
                 printf("删除成功\n");
             }
@@ -258,8 +258,8 @@ namespace ww
             }
             int size = get_size();
             int st = -1;
-            if (st = ftruncate(fd_, length) == 0)
-                printf("old size %d , now size %d\n", size, get_size());
+            if ((st = ftruncate(fd_, length)) == 0)
+                printf("old size %d , now size %d\n", size, (int)get_size());
             else
                 printf("ftruncate error\n");
             return st;
@@ -275,7 +275,7 @@ namespace ww
             }
             int st = -1;
 
-            if (st = lseek(fd_, offset, SEEK_SET) == 0)
+            if ((st = lseek(fd_, offset, SEEK_SET)) == 0)
             {
                 printf("读写指针移动成功\n");
             }

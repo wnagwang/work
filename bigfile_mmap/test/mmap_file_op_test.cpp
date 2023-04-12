@@ -26,4 +26,5 @@ int main(){
     printf("buf : %s\n",buf);
     mmap_file_op->munmap_file();
     mmap_file_op->close_file();
+    return 0;
 }

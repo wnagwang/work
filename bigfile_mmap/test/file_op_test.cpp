@@ -12,7 +12,7 @@ int main(){
 
     char buf[64];
     memset(buf,'6',sizeof(buf));
-    int ret=file_op->pwrite_file(buf,64,1024);
+    int ret = file_op->pwrite_file(buf,64,1024);
     
     memset(buf,0,sizeof(buf));
     ret=file_op->pread_file(buf,63,1024);

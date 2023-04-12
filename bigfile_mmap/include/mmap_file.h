@@ -32,8 +32,8 @@ namespace ww{
         private:
             bool ensure_file_size(const int32_t size); //扩容
             int32_t mmap_size_; 
-            int fd_;
             void* data_;
+            int fd_;
             struct MMapOption mmap_option_;
         };
     }

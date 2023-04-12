@@ -1,9 +1,9 @@
 #include "mmap_file.h"
-#include "common.h"
+
 
 const static ww::file::MMapOption mmap_option = {1024000,1024,1024};
 int main(){
-    int fd = open("test.txt",O_RDWR|O_CREAT|O_LARGEFILE);
+    int fd = open("test.txt",O_RDWR|O_CREAT|O_LARGEFILE,0644);
     if(fd < 0){
         fprintf(stderr,"文件打开失败!\n");
         return -1;

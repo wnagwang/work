@@ -67,7 +67,7 @@ namespace ww
                 return false;
             if (mmap_size_ >= mmap_option_.max_mmap_size)
             {
-                fprintf(stderr, "超出最大size %s\n",mmap_option_.max_mmap_size);
+                fprintf(stderr, "超出最大size %d\n",mmap_option_.max_mmap_size);
                 return false;
             }
 

@@ -42,7 +42,7 @@ namespace ww
                 }
                 else
                 {
-                    memcpy(mmap_file_->get_data()+offset,buf,nbyte);
+                    memcpy((uint8_t *)mmap_file_->get_data()+offset,buf,nbyte);
                     return 0;
                 }
                 return -1;
