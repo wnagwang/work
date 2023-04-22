@@ -27,7 +27,11 @@ namespace ww
         {
             fd_ = open(file_name_, open_flag_, OPEN_MOOD);
             if (fd_ < 0)
+            {
+                printf("open error %s\n",strerror(errno));
                 return -errno;
+            }
+                
             return fd_;
         } // 打开文件
 
