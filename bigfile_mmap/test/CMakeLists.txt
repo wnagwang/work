@@ -12,11 +12,13 @@ link_directories(../lib)
 file(GLOB_RECURSE LIB_SRC
         ../src/*.cpp    
         )
-#add_library(mmap STATIC ${LIB_SRC})
-
-#add_subdirectory(../src/ src_binary_dir)
 
 
 add_executable(file_op_test file_op_test.cpp   ${LIB_SRC})
 add_executable(mmap_file_test mmap_file_test.cpp  ${LIB_SRC})
 add_executable(mmap_file_op_test mmap_file_op_test.cpp  ${LIB_SRC})
+add_executable(block_init_test block_init_test.cpp  ${LIB_SRC})
+add_executable(block_write_test block_write_test.cpp  ${LIB_SRC})
+add_executable(block_stat block_stat.cpp  ${LIB_SRC})
+add_executable(block_read_test block_read_test.cpp  ${LIB_SRC})
+add_executable(block_delete_test block_delete_test.cpp  ${LIB_SRC})
