@@ -1,0 +1,14 @@
+2023/07/07,19:35:19 -- [INFO] ../log/bike.log: 
+In file /home/ww/git/work/share_bike/test/log_test.cpp,line 5,function main:info test
+2023/07/07,19:35:19 -- [ERROR] ../log/bike.log: 
+In file /home/ww/git/work/share_bike/test/log_test.cpp,line 6,function main:error test
+2023/07/07,19:35:19 -- [WARN] ../log/bike.log: 
+In file /home/ww/git/work/share_bike/test/log_test.cpp,line 7,function main:warn test
+2023/07/07,19:37:51 -- [DEBUG] ../log/bike.log: 
+In file /home/ww/git/work/share_bike/test/log_test.cpp,line 4,function main:debug test
+2023/07/07,19:37:51 -- [INFO] ../log/bike.log: 
+In file /home/ww/git/work/share_bike/test/log_test.cpp,line 5,function main:info test
+2023/07/07,19:37:51 -- [ERROR] ../log/bike.log: 
+In file /home/ww/git/work/share_bike/test/log_test.cpp,line 6,function main:error test
+2023/07/07,19:37:51 -- [WARN] ../log/bike.log: 
+In file /home/ww/git/work/share_bike/test/log_test.cpp,line 7,function main:warn test

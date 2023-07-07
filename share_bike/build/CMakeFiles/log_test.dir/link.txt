@@ -1,0 +1,1 @@
+/usr/bin/c++   -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-builtin-macro-redefined -Wno-deprecated-declarations   CMakeFiles/log_test.dir/test/log_test.cpp.o  -o ../bin/log_test  -L/usr/local/lib -Wl,-rpath,/usr/local/lib -lprotobuf -llog4cpp -lpthread -levent 

@@ -1,0 +1,3 @@
+/home/ww/git/work/share_bike/build/CMakeFiles/rebuild_cache.dir
+/home/ww/git/work/share_bike/build/CMakeFiles/log_test.dir
+/home/ww/git/work/share_bike/build/CMakeFiles/edit_cache.dir
